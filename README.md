@@ -6,10 +6,13 @@ It also shows temperature and humidity on a 4 digit display.
 
 ## Supplies
 
-Before you begin, ensure you have met the following requirements:
-
-* You have installed the latest version of [VLC](https://www.videolan.org/vlc/index.es.html).
-* Python 3 or higher.
+* TM1637 4-digit 7-segment display
+* Breadboard
+* Arduino Uno
+* DHT22 sensor
+* 4,7k resistor
+* 47 ohm resistor
+* IR led
 
 ## Installing MarianoTV
 
@@ -22,7 +25,7 @@ To install MarianoTV, follow these steps:
     vlc = r"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" #Path of VLC.exe
 ```
 
-## Using MarianoTV
+## Wiring diagram
 
 * Just double click on MarianoTV.py (I recommend creating a desktop shortcut). It will open a console window that will start playing random videos.
 * To correctly close this program, Alt+Tab to console and press Enter (if closed other way it may corrupt the registry).
