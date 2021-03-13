@@ -4,7 +4,7 @@ I used an Arduino UNO connected to a DHT22 sensor to measure humidity. When humi
 
 It also shows temperature and humidity on a 4 digit display.
 
-## Prerequisites
+## Supplies
 
 Before you begin, ensure you have met the following requirements:
 
