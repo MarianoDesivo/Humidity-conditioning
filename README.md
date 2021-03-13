@@ -1,6 +1,8 @@
-# MarianoTV
+# Humidity conditioning
 
-MarianoTV opens random videos in a determined folder (all subfolders included) with [VLC](https://www.videolan.org/vlc/index.es.html). Creates a registry to store watched videos not to repeat them.
+I used an Arduino UNO connected to a DHT22 sensor to measure humidity. When humidity goes too low, it sends an IR message to turn off the air conditioner with an IR led.
+
+It also shows temperature and humidity on a 4 digit display.
 
 ## Prerequisites
 
